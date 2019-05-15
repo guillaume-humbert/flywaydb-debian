@@ -1,0 +1,12 @@
+Source: flywaydb
+Section: java
+Priority: optional
+Maintainer: Guillaume J Humbert <guillaume.j.humbert@pm.me>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/guillaume-humbert/flyway-debian
+
+Package: flyway
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}, libflyway-java
+Description: Executable for flyway.

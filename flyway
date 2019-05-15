@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+java -Djava.security.egd=file:/dev/../dev/urandom -cp "/usr/share/java/flyway-commandline.jar:/usr/share/java/flyway-core.jar:/usr/share/java/sqlite-jdbc.jar" org.flywaydb.commandline.Main $@
+
